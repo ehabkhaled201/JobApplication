@@ -1,0 +1,4 @@
+PORT = 3000
+MONGO_URI=mongodb://localhost:27017/job
+JWT_SECETE=thisappfor
+JWT_EXPIRE=1
