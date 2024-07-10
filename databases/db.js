@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 class Database {
-    static _connection;
+     _connection;
     constructor() {
         const uri = process.env.MONGO_URI;
         console.log(uri)

@@ -7,9 +7,9 @@ class CompanyService {
     let statusCode = 200;
     let response = {};
     try {
-      // select role of user
+      
       if (user.role != 'COMPANY_HR') {
-        // change status to 404 not found and return message error
+        
         statusCode = 403;
         response.message = `user not found or not allowed`;
       } else {

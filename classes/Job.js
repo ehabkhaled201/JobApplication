@@ -7,10 +7,10 @@ class JobService {
     let statusCode = 200;
     let response = {};
     try {
-        // check user allow to add job
-        // select role of user
+        
+        
       if (user.role != 'COMPANY_HR') {
-        // change status to 404 not found and return message error
+        
         statusCode = 404;
         response.message = `user not found or not allowed`;
       } else {

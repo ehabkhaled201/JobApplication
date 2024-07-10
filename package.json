@@ -22,9 +22,7 @@
     "jsonwebtoken": "^9.0.2",
     "mongodb": "^6.8.0",
     "mongoose": "^8.4.5",
-    "reflect-metadata": "^0.2.2",
-    "swagger-jsdoc": "^6.2.8",
-    "swagger-ui-express": "^5.0.1"
+    "reflect-metadata": "^0.2.2"
   },
   "devDependencies": {
     "bluebird": "^3.7.2",
